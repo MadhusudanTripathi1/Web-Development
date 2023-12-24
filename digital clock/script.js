@@ -20,9 +20,9 @@ function showtime(){
     if(s<10){
         s='0'+s
     }
-    h = document.getElementById('hh').innerText = h
-    m = document.getElementById('mm').innerText = m
-    s = document.getElementById('ss').innerText = s
+    document.getElementById('hh').innerText = h
+    document.getElementById('mm').innerText = m
+    document.getElementById('ss').innerText = s
     setInterval(showtime ,1000)
 }
 showtime()
