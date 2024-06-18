@@ -22,7 +22,7 @@ function showtime(){
     }
     h = document.getElementById('hh').innerText = h
     m = document.getElementById('mm').innerText = m
-    s = document.getElementById('ss').innerText = s
+    s = document.getElementById('ss').innerText = m
     setInterval(showtime ,1000)
 }
 showtime()
